@@ -11,6 +11,7 @@ public class AchievementTest {
     public void getById() {
         for (Achievement achievement : Achievement.values()) {
             assertThat(Achievement.getById(achievement.getId()), is(achievement));
+            assertThat();
         }
     }
 
